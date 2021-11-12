@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 500 & display = swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    background-color:#2CB3F3;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top:15vh;
+    font-family: 'Roboto', sans-serif;
+    padding:10px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top:15vh;
+}
+.hood-finn{
+    width:40vw;
+    height:57vh;
+    background-color:#FFFFFF;
+    position: relative;
+    left:30vw;
+    top:19vh;
+    border-radius:70px 70px 0px 0px;
+}
+.face-finn{
+    width:32vw;
+    height:52vh;
+    background-color:#FFE1C9;
+    position: relative;
+    left:34vw;
+    bottom:16vw;
+    border-radius:50%;
+}
+.one-eye{
+    width:30px;
+    height:30px;
+    background-color:black;
+    border-radius:50%;
+    position: relative;
+    left:43vw;
+    bottom:76vh;
+}
+.two-eye{
+    width:30px;
+    height:30px;
+    background-color:black;
+    border-radius:50%;
+    position: relative;
+    left:55vw;
+    bottom:37vw;
+}
+.mouth{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position:relative;
+    bottom:30vw;
+}
+.mouth  input{
+    padding:9px;
+    border:2px solid black;
+}
+button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    position:relative;
+    bottom:52vh;
+    padding:9px;
+    width:140px;
+    height:50px;
+    background-color:#55A603;
+    color:#B2F272;
+    border-radius:5px 5px 5px 5px;
+}
+
+
